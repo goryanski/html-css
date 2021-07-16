@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.gallery {
+    border: 2px solid #808080;
+    box-sizing: border-box;
+    width: 40%;
+    margin: 0 auto;
+    height: 600px;
+}
+.pictures-list {
+    width: 40%;
+    margin: 0 auto;
+}
+.pictures-list div {
+    width: 16.66%;
+    height: 90px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    box-sizing: border-box;
+    border-right: 2px solid #808080;
+    border-bottom: 2px solid #808080;
+}
+.cat-tied {
+    background-image: url(../icons/cat_tied_64.png);
+    border-left: 2px solid #808080;
+}
+.cat-eyes {
+    background-image: url(../icons/cat_eyes_64.png);
+}
+.cat-purr {
+    background-image: url(../icons/cat_purr_64.png);
+}
+.cat-cage {
+    background-image: url(../icons/cat_cage_64.png);
+}
+.cat-clean{
+    background-image: url(../icons/cat_clean_64.png);
+}
+.cat-box {
+    background-image: url(../icons/cat_box_64.png);
+}
+iframe {
+    border: 0;
+    padding-left: 40px;
+}

@@ -1,0 +1,87 @@
+@media screen and (max-width: 1350px) {
+    .section_three .cabinets_h1 {
+        padding-left: 30%;
+    }
+}
+@media screen and (max-width: 1110px) {
+    .section_one {
+        height: auto;
+    }
+    .header_nav {
+        display: none;
+    }
+    .menu_mobile {
+        display: block;
+    }
+    .swiper-container {
+        margin-top: 40px;
+    }
+    .section_three .cabinets_h1, .section_four .kitchen_h1, .section_five .creative_h1 {
+        font-size: calc(0.8rem + 25 * (100vw - 320px) / 880);
+
+    }
+    .section_two .white_art .text_under_logo, .section_three .text_cabinets, .section_four .text_kitchen, .section_five .text_creative {
+        font-size: calc(0.5rem + 5 * (100vw - 320px) / 880);
+    }
+    .footer .contacts_us {
+        font-size: 1.8rem;
+    }
+    .footer .lorem {
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width: 737px) {
+    .section_two .white_art .text_under_logo, .section_three .text_cabinets, .section_four .text_kitchen {
+        line-height: 1rem;
+    }
+    .footer {
+        /*display: grid;*/
+        /*grid-template-columns: 1fr;*/
+        /*grid-gap: 10% 5%;*/
+        /*width: 100%;*/
+        /*height: 80vh;*/
+        /*color: white;*/
+        /*background-color: #282828;*/
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+    /*.footer .contacts_us {*/
+    /*    font-size: 1.8rem;*/
+    /*}*/
+    .footer .lorem {
+        /*font-size: 0.6rem;*/
+        width: 70%;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .footer .map {
+        margin-top: 100px;
+    }
+    .footer .copyright {
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .section_two {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section_two .tree {
+        display: none;
+    }
+    .section_two .white_art .img_logo {
+        margin-top: 5%;
+    }
+    .section_two .white_art .text_under_logo {
+        margin: 10% auto;
+    }
+    .section_three .sec3_description, .section_four .sec4_description {
+        width: 50%;
+    }
+    .footer .copyright {
+        font-size: 0.6rem;
+    }
+}

@@ -1,0 +1,10 @@
+# BaliYogaBliss
+Landing page (Responsive Layout)
+https://yogasite.igorok208.vercel.app/
+
+
+Used 
+Responsive Layout grid, burger-menu, bootstrap;
+Parallax ImageScroll - jQuery plugin;
+Button back-to-top (js);
+(date of writing 12.2019)

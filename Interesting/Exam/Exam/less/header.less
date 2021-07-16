@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    .set-divide-line();
+    align-items: center;
+    & a {
+        text-decoration: none;
+        color: @text-color;
+    }
+    & .header-left-part {
+        display: flex;
+        align-items: center;
+        margin-left: 4%;
+        & .logo {
+            font-weight: bold;
+            width: 150px;
+            margin-right: 4%;
+        }
+        & nav {
+            display: flex;
+            & div {
+                margin-right: 1%;
+                height: 40px;
+                width: 100px;
+                margin-top: 20px;
+                & a {
+                    color: @text-color-opacity;
+                }
+            }
+        }
+    }
+    & .socials {
+        display: flex;
+        margin-right: 40px;
+        & a {
+            margin-right: 20px;
+        }
+        & img {
+            width: 20px;
+        }
+    }
+    & .fas {
+        display: none;
+    }
+}

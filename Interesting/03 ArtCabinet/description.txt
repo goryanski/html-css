@@ -1,0 +1,8 @@
+Landing page (Responsive Layout)
+https://artcabinet.igorok208.vercel.app/
+
+
+Used: 
+Responsive Layout: grid, burger-menu;
+Slider Swiper;
+(date of writing: 11.2019)

@@ -1,0 +1,114 @@
+#gallery {
+    & h1 {
+        .align-header();
+    }
+    & .gallery-images {
+        display: flex;
+        position: relative;
+        & .description-block {
+            display: none;
+            text-align: center;
+            background-color: @bckg-opacity-block;
+            color: @gallery-hover-element-color;
+            position: absolute;
+            .set-full-size();
+            top: 0;
+            & h3 {
+                padding-top: 10%;
+                padding-bottom: 5%;
+            }
+            & p {
+                color: @gallery-hover-element-color;
+                padding: 0 12%;
+                font-size: 1em;
+            }
+            & button {
+                background-color: hsla(0, 0%, 0%, 0);
+                border-color: @gallery-hover-element-color;
+                color: @gallery-hover-element-color;
+            }
+        }
+        & .description-block-img-3 {
+            & h3 {
+                padding-top: 20%;
+                padding-bottom: 5%;
+            }
+            & p {
+                font-size: 0.8em;
+                padding-bottom: 5%;
+            }
+        }
+        & .gallery-part-1 {
+            width: 29%;
+            position: relative;
+            & .gallery-img-1 {
+                .set-full-size();
+            }
+            &:hover {
+                & .description-block-img-1 {
+                    display: block;
+                }
+            }
+        }
+        & .gallery-part-2 {
+            width: 29%;
+            position: relative;
+            & .gallery-img-2 {
+                .set-full-size();
+            }
+            &:hover {
+                & .description-block-img-2 {
+                    display: block;
+                }
+            }
+        }
+        & .gallery-part-3 {
+            width: 13%;
+            position: relative;
+            & .gallery-img-3 {
+                .set-full-size();
+            }
+            &:hover {
+                & .description-block-img-3 {
+                    display: block;
+                }
+            }
+        }
+        & .gallery-part-4 {
+            width: 29%;
+            position: relative;
+            & .gallery-img-4 {
+                .set-full-size();
+            }
+            &:hover {
+                & .description-block-img-4 {
+                    display: block;
+                }
+            }
+        }
+        & i.fas {
+            position: absolute;
+            color: @gallery-hover-element-color;
+            align-self: center;
+            display: none;
+        }
+        & i.fa-chevron-left {
+            left: 1%;
+        }
+        & i.fa-chevron-right {
+            right: 1%;
+        }
+        &:hover {
+            & i.fas {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+
+
+.set-full-size {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,14 @@
+h1, h2 {
+    text-align: center;
+}
+.fridge div {
+    display: inline-block;
+    border: 2px solid #a0a0a0;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+div p {
+    text-align: center;
+    font-weight: bold;
+}

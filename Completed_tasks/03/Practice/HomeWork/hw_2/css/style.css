@@ -1,0 +1,21 @@
+.menu {
+    width: 60%;
+    background-color: #808080;
+    margin: 40px;
+}
+img {
+    width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu div:hover {
+    background-color: #666666;
+}
+.menu div p {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+    vertical-align: middle;
+}

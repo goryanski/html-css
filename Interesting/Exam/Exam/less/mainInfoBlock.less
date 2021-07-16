@@ -1,0 +1,60 @@
+main .section-1-greeting {
+    height: 92vh;
+    display: flex;
+    .set-divide-line();
+    & .block-text {
+        width: @width-half;
+        .block-text-style();
+        & h1 {
+            font-size: xx-large;
+        }
+        & .main-paragraph {
+            color: @text-color;
+        }
+    }
+    & .block-img {
+        background-image: url('../images/firewood-1.jpg');
+        width: @width-half;
+        .block-img-style();
+        margin-bottom: 0;
+    }
+}
+main .section-2-story {
+    .section-story-style();
+    & .block-img {
+        background-image: url('../images/firewood-2.jpg');
+    }
+}
+main .section-3-story {
+    .section-story-style();
+    & .block-img {
+        background-image: url('../images/lamp.jpg');
+     }
+}
+
+
+
+// mixins
+.section-story-style {
+    height: 50vh;
+    display: flex;
+    .set-divide-line();
+    .block-text {
+        width: @width-two-thirds;
+        .block-text-style();
+    }
+    .block-img {
+        width: @width-third;
+        .block-img-style();
+    }
+}
+.block-text-style {
+    padding: 6%;
+    align-self: center;
+    box-sizing: border-box;
+}
+.block-img-style {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}

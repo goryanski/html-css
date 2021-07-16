@@ -1,0 +1,43 @@
+@import url(./_vars.less);
+@import url(./header.less);
+@import url(./mainInfoBlock.less);
+@import url(./gallery.less);
+@import url(./features.less);
+@import url(./contactForm.less);
+@import url(./footer.less);
+@import url(./mediaQueries.less);
+
+
+// general styles
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    scroll-behavior: smooth;
+}
+main h1 {
+    font-weight: normal;
+}
+main p {
+    color: @text-color-opacity;
+}
+main button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: @btn-color;
+    border-color: @btn-border-color;
+    background-color: @btn-bckg-color;
+}
+
+
+// general mixins
+.set-divide-line {
+    border-bottom: 2px solid rgb(233, 233, 233);
+}
+.align-header {
+    text-align: center;
+    margin: 10% 5% 5%;
+}

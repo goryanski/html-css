@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+section .text-section {
+    width: 50%;
+    height: 50vh;
+}
+.text-section p {
+    text-align: center;
+    margin-top: 25vh;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text-left-position {
+    float: left;
+}
+.text-right-position{
+    float: right;
+}
+section .img-section {
+    width: 50%;
+    height: 50vh;
+    background:  url('../images/sheets.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-left-position {
+    float: left;
+}
+.img-right-position {
+    float: right;
+}
+section:hover .img-section {
+    animation: blackoutImg .3s  linear, scaleImg 1s linear;
+    animation-fill-mode: forwards;
+}
+section:hover .text-section {
+    animation: blackoutTxt .3s  linear;
+    animation-fill-mode: forwards;
+}
+@keyframes blackoutImg {
+    to {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@keyframes scaleImg {
+    from {
+        background-size: 100%;
+        background-position:center;
+    }
+    to {
+        background-size: 130%;
+        background-position:center;
+    }
+}
+@keyframes blackoutTxt {
+    to {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    }
+}

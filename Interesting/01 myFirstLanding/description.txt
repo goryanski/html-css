@@ -1,0 +1,7 @@
+First landing page (Fixed Layout)
+https://myfirstlanding-git-master-igorok208.vercel.app/
+
+
+used Masonry for photo gallery, 
+animate.css from https://daneden.github.io/animate.css/
+(date of writing: 10.2019)

@@ -1,0 +1,13 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj1vpTr6nFer_CZSIGPR51ZVK66ki4PZ5anw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+.container {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #ffffffd3;
+    padding: 40px;
+}

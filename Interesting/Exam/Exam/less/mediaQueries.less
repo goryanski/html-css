@@ -1,0 +1,261 @@
+@media (max-width: 1200px) {
+    main #contact-form {
+        & .form div {
+            margin-left: 15%;
+        }
+    }
+}
+@media (max-width: 1120px) {
+    main {
+        font-size: 0.9em;
+    }
+    main .section-1-greeting {
+        height: 70vh;
+    }
+    main .section-2-story, main .section-3-story {
+        height: 35vh;
+    }
+    main #gallery {
+        & .gallery-images {
+            & .description-block {
+                & h3 {
+                    padding-top: 3%;
+                    padding-bottom: 0;
+                }
+                & p {
+                    padding: 0 12%;
+                    font-size: 0.9em;
+                    margin: 0;
+                }
+            }
+            & .description-block-img-3 {
+                & h3 {
+                    padding-top: 3%;
+                    font-size: 1em;
+                }
+                & p {
+                    padding: 0 12%;
+                    font-size: 0.7em;
+                }
+            }
+        }
+    }
+    main #contact-form {
+        & h1 {
+            margin-bottom: 4%;
+        }
+        & .form div {
+            margin-left: 5%;
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    header {
+        & .socials {
+            display: none;
+        }
+    }
+    main {
+        font-size: 0.8em;
+    }
+    body main button {
+        margin-top: 0;
+    }
+    main .section-1-greeting .block-text {
+        padding: 1% 5%;
+    }
+    main .section-2-story {
+        & .block-text {
+            width: @width-half;
+            padding: 1% 5%;
+        }
+        & .block-img {
+            width: @width-half;
+        }
+    }
+    main .section-3-story {
+        & .block-text {
+            width: @width-half;
+            padding: 1% 5%;
+        }
+        & .block-img {
+            width: @width-half;
+        }
+    }
+    main #gallery .gallery-images {
+        .gallery-part-3, .gallery-part-4 {
+            display: none;
+        }
+        .gallery-part-1, .gallery-part-2 {
+            width: 50%;
+        }
+        & .description-block {
+            & h3 {
+                padding-top: 10%;
+                padding-bottom: 5%;
+            }
+            & p {
+                padding: 0 12% 5%;
+            }
+        }
+    }
+    main #features {
+        & .table-xl {
+            display: none;
+        }
+        & .table-md {
+            display: table;
+            & td {
+                padding: 8%;
+            }
+        }
+    }
+    main #contact-form .form {
+        margin-bottom: 8%;
+        width: 90%;
+        & .send button {
+            margin-top: 3%;
+        }
+        & .client-data {
+            & label {
+                width: 100%;
+                & input {
+                    width: 80%;
+                }
+            }
+        }
+        & .topic {
+            margin-top: 30px;
+            & label {
+                & select {
+                   width: 90%;
+                }
+            }
+        }
+        & .message{
+            margin-top: 20px;
+            & textarea {
+                width: 90%;
+            }
+        }
+        & .send {
+            width: 90%;
+        }
+    }
+}
+@media (max-width: 600px) {
+    header {
+        & .header-left-part {
+            & .logo {
+                margin-left: 25%;
+            }
+            & nav {
+                display: none;
+            }
+        }
+        & .fas {
+            display: inline-block;
+            margin-right: 5%;
+        }
+    }
+    main {
+        font-size: 0.7em;
+    }
+    main .section-1-greeting {
+        flex-direction: column;
+        height: 120vh;
+        & .block-img {
+            height: 60%;
+            order: 1;
+            width: @width-full;
+            background-position-y: bottom;
+        }
+        & div.block-text {
+            order: 2;
+            padding: 10% 10% 0;
+            height: 40%;
+            width: @width-full;
+        }
+    }
+    main .section-2-story, main .section-3-story {
+        flex-direction: column;
+        height: 100vh;
+        & .block-img {
+            height: 70%;
+            order: 1;
+            width: @width-full;
+            background-position-y: top;
+        }
+        & div.block-text {
+            order: 2;
+            padding: 0 10%;
+            height: 30%;
+            width: @width-full;
+            margin-top: 10%;
+        }
+    }
+    main #gallery .gallery-images {
+        .gallery-part-2 {
+            display: none;
+        }
+        .gallery-part-1 {
+            width: 100%;
+        }
+        & .description-block {
+            & h3 {
+                padding-top: 20%;
+            }
+        }
+        & i.fa-chevron-left {
+            left: 3%;
+        }
+        & i.fa-chevron-right {
+            right: 3%;
+        }
+    }
+    main #features {
+        & .table-sm {
+            display: table;
+            border-bottom: @table-border-color;
+            & td {
+                padding: 20%;
+            }
+        }
+        & .table-md {
+            display: none;
+        }
+    }
+    main #contact-form .form {
+        & .client-data {
+            flex-wrap: wrap;
+            & label {
+                width: 100%;
+                margin-bottom: 40px;
+                & input {
+                    width: 80%;
+                }
+            }
+        }
+        & .contact-way {
+            display: block;
+            width: 270px;
+            & .radio-buttons {
+                display: flex;
+                & p {
+                    width: 100px;
+                }
+            }
+        }
+    }
+    footer {
+        & .socials {
+            & a {
+                margin: 10px;
+            }
+            & img {
+                width: 20px;
+            }
+        }
+    } 
+}

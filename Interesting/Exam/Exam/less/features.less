@@ -1,0 +1,22 @@
+#features {
+    & .table-md, & .table-sm {
+        display: none;
+    }
+    h1 {
+        .align-header();
+    }
+    & table {
+        width: 80%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        border: 2px solid white;
+        & td{
+            border: @table-border-color;
+            text-align: center;
+            padding: 3%;
+            & p:nth-child(2) {
+                font-weight: bold;
+            }
+        }
+    }
+}

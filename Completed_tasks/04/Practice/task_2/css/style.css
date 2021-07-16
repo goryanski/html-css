@@ -1,0 +1,44 @@
+.block {
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    position: relative;
+}
+.block p {
+    margin: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.curtain {
+    height: 300px;
+    width: 300px;
+    background-color: #8a2be2;
+    border: 10px solid #602994;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+}
+.curtain-2 {
+    left: 300px;
+}
+
+.block:hover .curtain-1 {
+    animation: rotationLeft 2s linear;
+    animation-fill-mode: forwards;
+}
+.block:hover .curtain-2 {
+    animation: rotationRight 2s linear;
+    animation-fill-mode: forwards;
+}
+@keyframes rotationLeft {
+    to {
+        transform: perspective(1200px) rotateY(50deg);
+    }
+}
+@keyframes rotationRight {
+    to {
+        transform: perspective(1200px) rotateY(-50deg);
+    }
+}
